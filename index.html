@@ -12,11 +12,16 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="" id="survey-form">
       <label for="name" id="name-label">Name: </label>
-      <input type="text" id="name">
+      <input type="text" id="name" required placeholder="Please put your name">
       <label for="email" id="email-label">Email: </label>
-      <input type="email" id="email"> 
+      <input type="email" id="email" required placeholder="Please write your email"> 
       <label for="number" id="number-label">Number: </label>
-      <input type="number" id="number" min="0" max="150">
+      <input type="number" id="number" min="0" max="150" placeholder="Please write your number">
+      <select name="dropdown" id="dropdown">
+        <option value="option_1">Option 1</option>
+        <option value="option_2">Option 2</option>
+        <option value="option_3">Option 3</option>
+      </select>
     </form>
     
     <script  src="js/index.js"></script>
